@@ -1,5 +1,6 @@
 how to test:
 
+`composer install`  
 `docker composer up -d`  
 `docker compose exec php bin/console doctrine:migrations:migrate`  
 `docker compose exec php bin/console messenger:consume async -vvv`
